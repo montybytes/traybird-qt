@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=TrayBird
+Comment=System tray icon for Thunderbird
+Icon=thunderbird
+Exec=sh -c "python3 @BIN_DIR@/traybird.py &"
+Terminal=false
+Categories=Network;Email;
+StartupNotify=false
